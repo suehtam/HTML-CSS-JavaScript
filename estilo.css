@@ -1,19 +1,30 @@
-h1
+#titulo,
+.texto
 {
-    color: royalblue;
-    font-size: 14px;
+    color:blueviolet; 
+    font-size: 25px;  
 }
-a
-{
-    font-size: 30px;
-    color: green;
-}
-img
-{
-    width: 100px;
-}
-li
+#titulo
 {
     font-weight: bold;
+}
+.texto
+{
+    font-weight: normal;
+}
+#listad
+{
+    color: aqua;
+}
+#listao
+{
     color: brown;
+}
+ol li
+{
+    font-style: italic;
+}
+ul li
+{
+    font-style:normal;
 }
