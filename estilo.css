@@ -1,12 +1,13 @@
 #titulo,
 .texto
 {
-    color:blueviolet; 
+    color:rgb(97, 68, 124); 
     font-size: 25px;  
 }
 #titulo
 {
     font-weight: bold;
+    background-color: rgb(230, 97, 97);
 }
 .texto
 {
@@ -14,11 +15,11 @@
 }
 #listad
 {
-    color: aqua;
+    color: #0FF;
 }
 #listao
 {
-    color: brown;
+    color: #830c0c;
 }
 ol li
 {
