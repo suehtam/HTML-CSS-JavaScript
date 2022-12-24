@@ -29,3 +29,38 @@ ul li
 {
     font-style:normal;
 }
+.body
+{
+    margin:0px;
+}
+#exemplo
+{
+    border:1px solid#00FF00;
+    padding:10px;
+    margin:10px;
+    padding:10px 20px 30px 40px;
+    
+}
+p{
+    background-color: #830c0c;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border-bottom:5px solid #0FF;
+    border-top:5px dotted blue;
+    border-left:5px dashed #00ff00;
+    border-right:5px red;
+}
+#exemplo1
+{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+img
+{
+    width: inherit;
+    max-width: 100x;
+    height: inherit;
+    min-height: 100px;
+}
