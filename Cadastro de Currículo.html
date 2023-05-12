@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+  </head>
+  <body>
+    <h1>Cadastro de Currículo</h1>
+    <fieldset>
+      <legend><b>Informações Pessoais</b></legend>
+      <fieldset>
+        <form action="página.html">
+          <label for="nome"><b>Nome:</b></label><input type="text" id ="nome" name = nome value="Digite o seu nome"><br>
+          <label for="email"><b>Email:</b></label><input type="text" id ="email" name = email value="Digite o seu email"><br>
+          <label for=" data de nascimento"><b>Data de Nascimento:</b></label><input type="date"id = "data de nascimento" name = data de nascimento value="mm/dd/yy"><br>
+          <label for="altura"><b>Altura(m):</b>:</label><select id="altura" name="altura"><option value="1.50">1,50</option><option value="1.55">1,55</option><option value="1.60">1,60</option></select><br>
+          <label for="site"><b>Site:</b></label><input type="text" id="site" name="site" value="Facebook, Linkedin,"><br>
+          <label for="estado civil"><b>Estado Civil:</b></label><select id="estado civil" name="estado civil"><option value="Selecione">Selecione</option><option value="Solteiro(a)">Solteiro(a)</option><option value="Casado(a)">Casado(a)</option></option></select><br>
+          <label><b>Sexo:</b></label><input type="radio" id="masculino" name="sexo" value="masculino"> <label for="masculino">Masculino</label> <input type="radio" id="feminino" name="sexo" value="feminino"> <label for="feminino">Feminino</label>
+        </form>
+      </fieldset>
+          <Legend><b>Endereço</b></legend>
+      <fieldset>
+        <form action="página.html">
+          <label for="cep"><b>CEP</b>:</label><input type="number" id="cep" name="cep"><br>
+          <label for="endereço"><b>Endereço</b>:</label><input type="text" id="endereço" name="endereço"><br>
+        </form>
+      </fieldset>
+      <legend><b>Contato</b></legend>
+      <fieldset>
+        <form action="página.html">
+          <label for="telefone"><b>Telefone:</b></label><input type="number" id="telefone" name="telefone"><br>
+          <label for="celular"><b>Celular:</b></label><input type="number" id="celular" name="celular"><br>
+        </form>
+      </fieldset>
+      <br>
+      <button>Enviar</button>
+    </fieldset>
+  </body>
+</html>
