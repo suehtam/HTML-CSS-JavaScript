@@ -58,6 +58,8 @@ p{
     border-top:5px dotted blue;
     border-left:5px dashed #00ff00;
     border-right:5px red;
+    line-height: 40px;
+    text-shadow: 1px 1px 1px red;
 }
 #exemplo1
 {
@@ -71,4 +73,15 @@ img
     max-width: 100x;
     height: inherit;
     min-height: 100px;
+}
+a
+{
+    text-decoration: none;
+    letter-spacing: 50px;
+    word-spacing: 10px;
+}
+a:hover
+{
+    text-decoration: underline;
+    text-transform: uppercase
 }
