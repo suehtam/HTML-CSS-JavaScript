@@ -1,0 +1,51 @@
+body
+{
+    background-image:url(https://i0.wp.com/www.clicandoeandando.com/wp-content/uploads/2017/09/Como-Fotografar-Paisagens-Com-Lente-Grande-Angular-Ubatuba.jpg);
+    background-repeat:repeat-x, repeat-y;
+    background-position:center;
+}
+h1
+{
+    text-transform:uppercase;
+}
+fieldset
+{
+    text-indent:2px;
+}
+legend
+{
+    word-spacing:2px;    
+}
+b
+{
+    text-shadow:2px 2px 2px blue;
+}
+form
+{
+    font-size:xx-large;
+}
+label
+{
+    border-style:dotted;
+}
+input
+{
+    border-width:thick;
+}
+select
+{
+    border-color:green;
+}
+option
+{
+    border-radius:100px;
+    transform:rotate(45deg);
+}
+button
+{
+    box-shadow:inset 20px 20px 20px yellow;
+}
+br
+{
+    opacity:0.5;
+}
