@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="CadastroDeCurrículo.css"/>
+    <script src="CadastroDeCurrículo.js"></script>
   </head>
+  <script>alert('Código antes do body')</script>
   <body>
     <h1>Cadastro de Currículo</h1>
     <fieldset>
@@ -12,7 +14,7 @@
         <form action="página.html">
           <label for="nome"><b>Nome:</b></label><input type="text" id ="nome" name = nome value="Digite o seu nome"><br>
           <label for="email"><b>Email:</b></label><input type="text" id ="email" name = email value="Digite o seu email"><br>
-          <label for=" data de nascimento"><b>Data de Nascimento:</b></label><input type="date"id = "data de nascimento" name = data de nascimento value="mm/dd/yy"><br>
+          <label for=" data de nascimento"><b>Data de Nascimento:</b></label><input type="date"id = "data de nascimento" name = datadenascimento value="mm/dd/yy"><br>
           <label for="altura"><b>Altura(m):</b>:</label><select id="altura" name="altura"><option value="1.50">1,50</option><option value="1.55">1,55</option><option value="1.60">1,60</option></select><br>
           <label for="site"><b>Site:</b></label><input type="text" id="site" name="site" value="Facebook, Linkedin,"><br>
           <label for="estado civil"><b>Estado Civil:</b></label><select id="estado civil" name="estado civil"><option value="Selecione">Selecione</option><option value="Solteiro(a)">Solteiro(a)</option><option value="Casado(a)">Casado(a)</option></option></select><br>
@@ -36,5 +38,7 @@
       <br>
       <button>Enviar</button>
     </fieldset>
+    <script>alert('Código no body')</script>
   </body>
+  <script>alert('Código depois do body')</script>
 </html>
